@@ -1,0 +1,23 @@
+{
+  "name": "@cozanet/core",
+  "version": "0.1.0",
+  "description": "Core modules and executive orchestration for CozanetOS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "cozanetos",
+    "core",
+    "ai",
+    "orchestration"
+  ],
+  "author": "CozanetOS",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
