@@ -19,3 +19,20 @@ export interface EngineRegistration {
   description: string;
   handler: (payload: any) => Promise<any>;
 }
+
+export interface ChatRequest {
+  message: string;
+  sessionId: string;
+}
+
+export interface ChatResponse {
+  reply: string;
+  sessionId: string;
+  memoryUsed: boolean;
+  timestamp: number;
+}
+
+export interface LLMMessage {
+  role: 'system' | 'user' | 'assistant';
+  content: string;
+}
